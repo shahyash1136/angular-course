@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./servers.component.css']
 })
 export class ServersComponent {
+
   allowNewServer = false;
   serverCreationStatus = 'No server was created'
   serverName = 'TestServer'
